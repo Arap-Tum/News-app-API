@@ -18,3 +18,8 @@ const PORT = process.env.PORT || 5000;
 app.listen(process.env.PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
+
+// Export the app for testing
+module.exports = app;
+// Export the app for testing
+module.exports = app;
